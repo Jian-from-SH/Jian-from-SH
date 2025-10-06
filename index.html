@@ -1,0 +1,79 @@
+html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Your Name] | Personal Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>[Your Name]</h1>
+      <p class="subtitle">[Your Tagline — e.g., “Finance Lawyer | Violinist | Traveler”]</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Welcome! I'm [Your Name], a [Your Profession or Role].  
+        This is my personal site where I share a bit about myself, my work, and things I love.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects & Work</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Project Title 1</h3>
+          <p>Short description of the project. You can include a link below.</p>
+          <a href="#" class="button">View Project</a>
+        </div>
+        <div class="card">
+          <h3>Project Title 2</h3>
+          <p>Another project description. Great for showcasing work or hobbies.</p>
+          <a href="#" class="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>
+        📬 You can reach me at 
+        <a href="mailto:youremail@example.com">youremail@example.com</a>  
+        or find me here:
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> [Your Name]. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // auto-update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
